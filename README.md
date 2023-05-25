@@ -13,3 +13,11 @@ Si nuestro servidor ficticio no se encuentra instalado, se instala usando el sig
 Seguido a ellos en el documento *package.json* en la sección de _*scripts*_ se añade el siguiente comando `"json-server": "json-server --watch db.json"` esto con la finalidad de vincular el archivo *db.json*.
 
 Finalmente, se ejecuta `npm run json-server` para correr nuestro servidor y se puede acceder a el mediante la siguiente url `localhost:3000`, allí se encontraran dos apartados, el apartado `/user` y el apartado `/roles`
+
+## Funcionamiento del Login
+
+Para acceder al Login las credenciales de usuarios tienen la siguiente estructura:
+* Usuario: usuario#
+* Contraseña: passUsuario#
+
+Donde # varia entre valores del 1 al 10 para acceder.
