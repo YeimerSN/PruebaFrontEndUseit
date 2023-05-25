@@ -1,0 +1,106 @@
+{
+    "user": [
+        {
+            "id": 1,
+            "userName": "usuario1",
+            "password": "passUsuario1"
+        },
+        {
+            "id": 2,
+            "userName": "usuario2",
+            "password": "passUsuario2"
+        },
+        {
+            "id": 3,
+            "userName": "usuario3",
+            "password": "passUsuario3"
+        },
+        {
+            "id": 4,
+            "userName": "usuario4",
+            "password": "passUsuario4"
+        },
+        {
+            "id": 5,
+            "userName": "usuario5",
+            "password": "passUsuario5"
+        },
+        {
+            "id": 6,
+            "userName": "usuario6",
+            "password": "passUsuario6"
+        },
+        {
+            "id": 7,
+            "userName": "usuario7",
+            "password": "passUsuario7"
+        },
+        {
+            "id": 8,
+            "userName": "usuario8",
+            "password": "passUsuario8"
+        },
+        {
+            "id": 9,
+            "userName": "usuario9",
+            "password": "passUsuario9"
+        },
+        {
+            "id": 10,
+            "userName": "usuario10",
+            "password": "passUsuario10"
+        }
+    ],
+    "roles": [
+        {
+            "id": 1,
+            "userId": 1,
+            "rol": "admin"
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "rol": "admin"
+        },
+        {
+            "id": 3,
+            "userId": 2,
+            "rol": "desarrollador"
+        },
+        {
+            "id": 4,
+            "userId": 4,
+            "rol": "desarrollador"
+        },
+        {
+            "id": 5,
+            "userId": 5,
+            "rol": "cliente"
+        },
+        {
+            "id": 6,
+            "userId": 6,
+            "rol": "cliente"
+        },
+        {
+            "id": 7,
+            "userId": 7,
+            "rol": "cliente"
+        },
+        {
+            "id": 8,
+            "userId": 8,
+            "rol": "cliente"
+        },
+        {
+            "id": 9,
+            "userId": 9,
+            "rol": "cliente"
+        },
+        {
+            "id": 10,
+            "userId": 10,
+            "rol": "cliente"
+        }
+    ]
+}

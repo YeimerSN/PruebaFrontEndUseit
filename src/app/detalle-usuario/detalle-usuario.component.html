@@ -1,0 +1,24 @@
+<app-menu></app-menu>
+<div class="container contenedor mt-5">
+    <h1>Detalle de usuario</h1>
+    <mat-card class="card" *ngIf="!error">
+        <mat-card-header>
+            <mat-card-title-group>
+                <mat-card-title>{{ usuario?.userName }}</mat-card-title>
+                <mat-card-subtitle><strong>Id:</strong> {{ usuario?.id }}</mat-card-subtitle>
+                <img mat-card-sm-image src="https://material.angular.io/assets/img/examples/shiba2.jpg">
+            </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+            <strong>Contraseña:</strong> {{ usuario?.password }} <br>
+            <strong>Rol:</strong> {{ rol?.rol }}
+        </mat-card-content>
+        <a mat-raised-button type="button" href="listarUsuarios">Regresar</a>
+    </mat-card>
+</div>
+<div class="centrar">
+    <h1 class="texto-centrado" *ngIf="error">
+        <p>{{ mensajeError }}</p>
+        <a mat-raised-button type="button" href="listarUsuarios">Regresar</a>
+    </h1>
+</div>

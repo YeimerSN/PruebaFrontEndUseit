@@ -1,0 +1,20 @@
+.contenedor {
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+    /* Estilos adicionales de la tarjeta */
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-centrado {
+    text-align: center;
+}
