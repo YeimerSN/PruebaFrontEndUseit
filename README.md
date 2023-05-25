@@ -1,27 +1,15 @@
-# PruebaUseit
+# Prueba FrontEnd
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+Esta prueba se desarrollo en Angular versión 15.0.4.
 
-## Development server
+## Correr el frontend
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Una vez clonado el proyecto debe correr el front haciendo uso del siguiente comando en la consola `ng serve` se debe esperar unos cuantos segundos hasta que arranque completamente el front y se puede acceder desde cualquier navegador en la siguiente dirección `localhost:4200`
 
-## Code scaffolding
+## JsonServer
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Si nuestro servidor ficticio no se encuentra instalado, se instala usando el siguiente comando en la consola `npm install json-server --save-dev`, una vez instalado se añaden los elementos al archivo json que se creo. 
 
-## Build
+Seguido a ellos en el documento *package.json* en la sección de _*scripts*_ se añade el siguiente comando `"json-server": "json-server --watch db.json"` esto con la finalidad de vincular el archivo *db.json*.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Finalmente, se ejecuta `npm run json-server` para correr nuestro servidor y se puede acceder a el mediante la siguiente url `localhost:3000`, allí se encontraran dos apartados, el apartado `/user` y el apartado `/roles`
